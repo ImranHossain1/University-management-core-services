@@ -49,6 +49,21 @@
             "date": 1696864257135,
             "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-09-10-17-success.log",
             "hash": "e1ce840274bbe5b558ac782973b25f3ddd4cb3c2655daf2342e20cf9714714a5"
+        },
+        {
+            "date": 1696868418510,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-09-10-18-success.log",
+            "hash": "2f620e92944a1cf7a076f028dcb00628b9d87b32ebfdf5f4de22847212f6d24c"
+        },
+        {
+            "date": 1696871654924,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-09-10-19-success.log",
+            "hash": "b54ace0a5d541f445e6246f72af0c371e0777024d241296adc8e881d9412d8aa"
+        },
+        {
+            "date": 1696875159083,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-09-10-20-success.log",
+            "hash": "edce3258e7985968e21ce80225d60f0846e0a6ce987639cfd2151dc50f414967"
         }
     ],
     "hashType": "sha256"

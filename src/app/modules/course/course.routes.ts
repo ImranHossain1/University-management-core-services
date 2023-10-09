@@ -16,11 +16,25 @@ router.post(
   CourseController.insertIntoDB
 );
 
+router.post(
+  '/:id/assign-faculties',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  validateRequest(CourseValidation.assignOrRemoveFaculties),
+  CourseController.assignFaculties
+);
+router.delete(
+  '/:id/remove-faculties',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  validateRequest(CourseValidation.assignOrRemoveFaculties),
+  CourseController.removeFaculties
+);
+
 /// I intend to explore the update course functionalities in the upcoming module.
 router.patch(
   '/:id',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
   validateRequest(CourseValidation.update),
-  //auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+
   CourseController.updateOneInDB
 );
 
