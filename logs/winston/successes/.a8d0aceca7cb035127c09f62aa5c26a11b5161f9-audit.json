@@ -64,6 +64,36 @@
             "date": 1696875159083,
             "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-09-10-20-success.log",
             "hash": "edce3258e7985968e21ce80225d60f0846e0a6ce987639cfd2151dc50f414967"
+        },
+        {
+            "date": 1696878034096,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-09-10-21-success.log",
+            "hash": "92947b68cf91f38780c5de1acd1eff4e73b18317fe7b91a3eb6812d420272b5c"
+        },
+        {
+            "date": 1696883960933,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-09-10-22-success.log",
+            "hash": "a63e82dc1bce73807d081be24fcc6d89a01676dee140a9c030aba7b1b9d1c57f"
+        },
+        {
+            "date": 1696885219414,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-09-10-23-success.log",
+            "hash": "5a2e43b39fb96881c6eafa17fecd8bef03849c2178fc044b597a1077cb748965"
+        },
+        {
+            "date": 1696889733802,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-10-10-00-success.log",
+            "hash": "8ab457dbc55d535fa9cb6c62fc454f4083f30144e690dbc972de1a96cb312183"
+        },
+        {
+            "date": 1696892404477,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-10-10-01-success.log",
+            "hash": "c65308db2befb275545d91f7947fce04e9c74e2b06864bf4874617701c979316"
+        },
+        {
+            "date": 1696896923217,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-10-10-02-success.log",
+            "hash": "aa59661b980ed87181bcec07bb16ccd38ff120a1188f5469b2c9032cb395e087"
         }
     ],
     "hashType": "sha256"
