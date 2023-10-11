@@ -10,7 +10,7 @@ const checkRookAvailable = async (data: OfferedCourseClassSchedule) => {
       where: {
         dayOfWeek: data.dayOfWeek,
         room: {
-          id: data.RoomId,
+          id: data.roomId,
         },
       },
     });

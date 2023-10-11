@@ -17,6 +17,7 @@ model AcademicSemester {
   code                  String
   startMonth            String
   endMonth              String
+  isCurrent             Boolean                @default(false)
   createdAt             DateTime               @default(now())
   updatedAt             DateTime               @updatedAt()
   students              Student[]
@@ -167,7 +168,7 @@ model CourseFaculty {
 
 model SemesterRegistration {
   id        String                     @id @default(uuid())
-  startData DateTime
+  startDate DateTime
   endDate   DateTime
   status    SemesterRegistrationStatus @default(UPCOMING)
   minCredit Int                        @default(0)
@@ -251,8 +252,8 @@ model OfferedCourseClassSchedule {
   offeredCourseSection   OfferedCourseSection @relation(fields: [offeredCourseSectionId], references: [id])
   semesterRegistrationId String
   semesterRegistration   SemesterRegistration @relation(fields: [semesterRegistrationId], references: [id])
-  RoomId                 String
-  room                   Room                 @relation(fields: [RoomId], references: [id])
+  roomId                 String
+  room                   Room                 @relation(fields: [roomId], references: [id])
   facultyId              String
   faculty                Faculty              @relation(fields: [facultyId], references: [id])
 

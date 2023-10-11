@@ -38,7 +38,7 @@ const getByIdFromDB = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'SemesterRegistration fetched successfully',
+    message: 'Semester Registration fetched successfully',
     data: result,
   });
 });
@@ -103,6 +103,43 @@ const withdrawFromCourse = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
+const confirmMyRegistration = catchAsync(
+  async (req: Request, res: Response) => {
+    const user = (req as any).user;
+    const result = await SemesterRegistrationService.confirmMyRegistration(
+      user.userId
+    );
+    sendResponse(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Confirm your Registration successfully',
+      data: result,
+    });
+  }
+);
+const getMyRegistration = catchAsync(async (req: Request, res: Response) => {
+  const user = (req as any).user;
+  const result = await SemesterRegistrationService.getMyRegistration(
+    user.userId
+  );
+  console.log(result);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Retrieved My Registration successfully',
+    data: result,
+  });
+});
+const startNewSemester = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await SemesterRegistrationService.startNewSemester(id);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Semester started successfully',
+    data: result,
+  });
+});
 export const SemesterRegistrationController = {
   insertIntoDB,
   getAllFromDB,
@@ -112,4 +149,7 @@ export const SemesterRegistrationController = {
   startMyRegistration,
   enrollIntoCourse,
   withdrawFromCourse,
+  confirmMyRegistration,
+  getMyRegistration,
+  startNewSemester,
 };
