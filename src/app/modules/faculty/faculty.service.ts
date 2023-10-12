@@ -178,6 +178,7 @@ const removeCourses = async (
   });
   return assignCoursesData;
 };
+
 export const FacultyService = {
   insertIntoDB,
   getAllFromDB,

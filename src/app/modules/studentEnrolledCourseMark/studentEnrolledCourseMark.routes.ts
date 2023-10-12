@@ -7,6 +7,10 @@ router.patch(
   '/update-marks',
   StudentEnrolledCourseMarkController.updateStudentMarks
 );
+router.patch(
+  '/update-final-marks',
+  StudentEnrolledCourseMarkController.updateFinalMarks
+);
 router.get(
   '/',
   auth(ENUM_USER_ROLE.ADMIN, ENUM_USER_ROLE.FACULTY),
