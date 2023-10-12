@@ -1,0 +1,69 @@
+Thu Oct 12 2023 3:23:36 } [PH] error: 
+Invalid `prisma.studentSemesterPayment.create()` invocation:
+
+
+Transaction API error: Transaction already closed: A query cannot be executed on a committed transaction.
+Thu Oct 12 2023 3:47:19 } [PH] error: 
+Invalid `prisma.studentSemesterPayment.create()` invocation:
+
+{
+  data: {
+    studentId: "1b45597f-9e1c-433a-9a94-37e9f41b5ce4",
+    academicSemesterId: "d72d6c09-cd6a-4cb8-a9dd-9eb027ef5fc5",
+    totalPaymentAmount: 15000,
+    ~~~~~~~~~~~~~~~~~~
+    partialPaymentAmount: 7500,
+    totalDueAmount: 15000,
+    totalPaidAmount: 0,
+?   id?: String,
+?   createdAt?: DateTime,
+?   updatedAt?: DateTime,
+?   fullPaymentAmount?: Int | Null,
+?   totalDeuAmount?: Int | Null,
+?   paymentStatus?: PaymentStatus
+  }
+}
+
+Unknown argument `totalPaymentAmount`. Available options are marked with ?.
+Thu Oct 12 2023 3:49:16 } [PH] error: 
+Invalid `prisma.studentSemesterPayment.create()` invocation:
+
+
+Transaction API error: Transaction already closed: Could not perform operation.
+Thu Oct 12 2023 3:51:41 } [PH] error: 
+Invalid `prisma.studentSemesterPayment.create()` invocation:
+
+
+Transaction API error: Transaction already closed: Could not perform operation.
+Thu Oct 12 2023 3:55:36 } [PH] error: 
+Invalid `prisma.studentSemesterPayment.create()` invocation:
+
+
+Transaction API error: Transaction already closed: Could not perform operation.
+Thu Oct 12 2023 3:56:21 } [PH] error: 
+Invalid `prisma.studentSemesterPayment.create()` invocation:
+
+
+Transaction API error: Transaction already closed: Could not perform operation.
+Thu Oct 12 2023 3:59:38 } [PH] error: 
+Invalid `prisma.studentSemesterPayment.create()` invocation:
+
+{
+  data: {
+    studentId: "1b45597f-9e1c-433a-9a94-37e9f41b5ce4",
+    academicSemesterId: "d72d6c09-cd6a-4cb8-a9dd-9eb027ef5fc5",
+    totalPaymentAmount: 15000,
+    ~~~~~~~~~~~~~~~~~~
+    partialPaymentAmount: 7500,
+    totalDueAmount: 15000,
+    totalPaidAmount: 0,
+?   id?: String,
+?   createdAt?: DateTime,
+?   updatedAt?: DateTime,
+?   fullPaymentAmount?: Int | Null,
+?   totalDeuAmount?: Int | Null,
+?   paymentStatus?: PaymentStatus
+  }
+}
+
+Unknown argument `totalPaymentAmount`. Available options are marked with ?.
