@@ -66,7 +66,6 @@ const deleteByIdFromDB = catchAsync(async (req: Request, res: Response) => {
 });
 const startMyRegistration = catchAsync(async (req: Request, res: Response) => {
   const user = (req as any).user;
-  console.log(user);
   const result = await SemesterRegistrationService.startMyRegistration(
     user.userId
   );
@@ -122,7 +121,6 @@ const getMyRegistration = catchAsync(async (req: Request, res: Response) => {
   const result = await SemesterRegistrationService.getMyRegistration(
     user.userId
   );
-  console.log(result);
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
@@ -140,6 +138,22 @@ const startNewSemester = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
+
+const getMySemesterRegistrationCourses = catchAsync(
+  async (req: Request, res: Response) => {
+    const user = (req as any).user;
+    const result =
+      await SemesterRegistrationService.getMySemesterRegistrationCourses(
+        user.userId
+      );
+    sendResponse(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Retrieved My Registration successfully',
+      data: result,
+    });
+  }
+);
 export const SemesterRegistrationController = {
   insertIntoDB,
   getAllFromDB,
@@ -152,4 +166,5 @@ export const SemesterRegistrationController = {
   confirmMyRegistration,
   getMyRegistration,
   startNewSemester,
+  getMySemesterRegistrationCourses,
 };

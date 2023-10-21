@@ -209,6 +209,41 @@
             "date": 1697119251062,
             "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-12-10-16-success.log",
             "hash": "1d61ab7def28132e97a4ae34f031018b1bfc3a2eee089e11e6ee5bb2e65d9183"
+        },
+        {
+            "date": 1697884078517,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-21-10-12-success.log",
+            "hash": "fa8b9b21d4ad6c057a7ae378129da24dda84920d2eef516777932f968949eda6"
+        },
+        {
+            "date": 1697886235512,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-21-10-13-success.log",
+            "hash": "3941c953cb09174a5dcbcec055c5059fe41dc69ed4d7e85882b8787f99eabf8f"
+        },
+        {
+            "date": 1697889682001,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-21-10-14-success.log",
+            "hash": "1d1e04dfeff70ab0969b23fd582f24e296406d525d14e04a83a9deb50d806508"
+        },
+        {
+            "date": 1697905403131,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-21-10-18-success.log",
+            "hash": "81b03b060d345418f5142034025e2904b0560859a36f8d611094e934bab859d1"
+        },
+        {
+            "date": 1697908023306,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-21-10-19-success.log",
+            "hash": "9bd6a90f17ac832fe18b81281cda0a3ae5f84db39fecff4859cc27a9128d9282"
+        },
+        {
+            "date": 1697912915014,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-21-10-20-success.log",
+            "hash": "03f9e38bd0d11bd20360813beedce14212e3ec72ffc32357c792e3b101c613c7"
+        },
+        {
+            "date": 1697914800196,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\university-management-core-service\\logs\\winston\\successes\\phu-2023-21-10-21-success.log",
+            "hash": "068742bc81b6bd05603756ecab7f686383c8b8335b5fab954b37b501a85d64bb"
         }
     ],
     "hashType": "sha256"
