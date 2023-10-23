@@ -43,7 +43,6 @@ const calcCGPAandGrade = (
     totalCredit += grade.course.credits || 0;
   }
   const avgCGPA = Number((totalCGPA / payload.length).toFixed(2));
-  console.log(avgCGPA);
 
   return {
     totalCompletedCredit: totalCredit,

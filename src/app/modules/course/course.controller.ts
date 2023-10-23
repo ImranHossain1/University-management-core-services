@@ -11,7 +11,7 @@ const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Course created successfully',
+    message: 'Course created successufully',
     data: result,
   });
 });
@@ -61,10 +61,10 @@ const deleteByIdFromDB = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
-const assignFaculties = catchAsync(async (req: Request, res: Response) => {
-  const { id } = req.params;
 
-  const result = await CourseService.assignFaculties(id, req.body.faculties);
+const assignFaculies = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await CourseService.assignFaculies(id, req.body.faculties);
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
@@ -72,14 +72,14 @@ const assignFaculties = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
+
 const removeFaculties = catchAsync(async (req: Request, res: Response) => {
   const { id } = req.params;
-
   const result = await CourseService.removeFaculties(id, req.body.faculties);
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Course faculty delete successfully',
+    message: 'Course faculty deleted successfully',
     data: result,
   });
 });
@@ -88,8 +88,8 @@ export const CourseController = {
   insertIntoDB,
   getAllFromDB,
   getByIdFromDB,
-  updateOneInDB,
   deleteByIdFromDB,
-  assignFaculties,
+  updateOneInDB,
+  assignFaculies,
   removeFaculties,
 };

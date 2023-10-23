@@ -233,7 +233,6 @@ const myCourses = async (
     (acc: any, obj: any) => {
       const course = obj.offeredcourse.course;
       const classSchedules = obj.offeredCourseClassSchedules;
-      //console.log(obj.offeredcourse);
       const exisingCourse = acc.find(
         (item: any) => item.course.id === course?.id
       );
@@ -257,11 +256,9 @@ const myCourses = async (
 
 const getMyCourseStudents = async (
   filters: IFacultyMyCourseStudentsRequest,
-  options: IPaginationOptions,
-  authUser: any
+  options: IPaginationOptions
 ): Promise<IGenericResponse<Student[]>> => {
   const { limit, page, skip } = paginationHelpers.calculatePagination(options);
-  console.log(authUser);
   if (!filters.academicSemesterId) {
     const currentAcademicSemester = await prisma.academicSemester.findFirst({
       where: {

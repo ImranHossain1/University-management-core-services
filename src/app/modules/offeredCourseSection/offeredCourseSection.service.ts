@@ -221,13 +221,6 @@ const deleteByIdFromDB = async (id: string): Promise<OfferedCourseSection> => {
     where: {
       id,
     },
-    include: {
-      offeredcourse: {
-        include: {
-          course: true,
-        },
-      },
-    },
   });
   return result;
 };

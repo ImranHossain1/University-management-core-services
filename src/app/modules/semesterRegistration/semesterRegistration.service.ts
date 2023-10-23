@@ -150,7 +150,6 @@ const updateOneInDb = async (
   id: string,
   payload: Partial<SemesterRegistration>
 ): Promise<SemesterRegistration> => {
-  //console.log(payload.status);
   const isExist = await prisma.semesterRegistration.findUnique({
     where: {
       id,
@@ -349,7 +348,6 @@ const confirmMyRegistration = async (
       `You can take only ${semesterRegistration.minCredit} to ${semesterRegistration.maxCredit}`
     );
   }
-  console.log(studentSemesterRegistration);
   await prisma.studentSemesterRegistration.update({
     where: {
       id: studentSemesterRegistration?.id,
@@ -431,7 +429,7 @@ const startNewSemester = async (
 
     await prismaTransactionClient.academicSemester.update({
       where: {
-        id: semesterRegistration?.academicSemester.id,
+        id: semesterRegistration?.academicSemesterId,
       },
       data: {
         isCurrent: true,
@@ -597,9 +595,9 @@ const getMySemesterRegistrationCourses = async (authUserId: string) => {
     include: {
       course: {
         include: {
-          prerequisite: {
+          preRequisite: {
             include: {
-              prerequisite: true,
+              preRequisite: true,
             },
           },
         },
