@@ -16,7 +16,6 @@ const insertIntoDB = async (
 ): Promise<OfferedCourseClassSchedule> => {
   await OfferedCourseClassScheduleUtils.checkRookAvailable(data);
   await OfferedCourseClassScheduleUtils.checkFacultyAvailable(data);
-  console.log(data);
   const result = await prisma.offeredCourseClassSchedule.create({
     data,
     include: {

@@ -7,7 +7,6 @@ export const AcademicSemesterSearchableFields = [
 
 export const AcademicSemesterFilterableFields = [
   'searchTerm',
-  'year',
   'startMonth',
   'endMonth',
 ];
