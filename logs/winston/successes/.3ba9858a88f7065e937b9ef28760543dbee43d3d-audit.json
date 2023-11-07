@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "J:\\2ndLevel\\ProgHeroUniversity\\progHero-Backend\\university-management-core-service\\logs\\winston\\successes\\.3ba9858a88f7065e937b9ef28760543dbee43d3d-audit.json",
+    "files": [
+        {
+            "date": 1698721897190,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\progHero-Backend\\university-management-core-service\\logs\\winston\\successes\\phu-2023-31-10-04-success.log",
+            "hash": "ee2ae0f4199a646e644d1e7da555763038e0ab2e51b519837a8af55bd7e4f94b"
+        }
+    ],
+    "hashType": "sha256"
+}

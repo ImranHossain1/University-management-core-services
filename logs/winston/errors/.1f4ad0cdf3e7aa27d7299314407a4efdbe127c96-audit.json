@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "J:\\2ndLevel\\ProgHeroUniversity\\Backend\\2.university-management-core-service\\logs\\winston\\errors\\.1f4ad0cdf3e7aa27d7299314407a4efdbe127c96-audit.json",
+    "files": [
+        {
+            "date": 1699284121775,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\Backend\\2.university-management-core-service\\logs\\winston\\errors\\phu-2023-06-11-16-error.log",
+            "hash": "813e86679c63454b6550c98c2e3b1ade3bce6673e1dfd1e6a5d11d61bec28ce9"
+        },
+        {
+            "date": 1699286679505,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\Backend\\2.university-management-core-service\\logs\\winston\\errors\\phu-2023-06-11-17-error.log",
+            "hash": "0a6277190119ee3a12957fc45d5948458348114d7ae471abb8791ba0c10d1b02"
+        },
+        {
+            "date": 1699291121147,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\Backend\\2.university-management-core-service\\logs\\winston\\errors\\phu-2023-06-11-18-error.log",
+            "hash": "e892d044d5766cee67c825fcbc4bf1ed2246481bd1e04b676c33c4c8e4b9e35a"
+        },
+        {
+            "date": 1699293918399,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\Backend\\2.university-management-core-service\\logs\\winston\\errors\\phu-2023-06-11-19-error.log",
+            "hash": "45571b812fd55ed0ac5b9d2ec4a6a72639834c30dab15340e0803d62e27c05ab"
+        },
+        {
+            "date": 1699311730870,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\Backend\\2.university-management-core-service\\logs\\winston\\errors\\phu-2023-07-11-00-error.log",
+            "hash": "f32030915fac894ecf6aef91ac8e533563dc6e6d4ae466e7b293fc82d2cc7910"
+        },
+        {
+            "date": 1699316590689,
+            "name": "J:\\2ndLevel\\ProgHeroUniversity\\Backend\\2.university-management-core-service\\logs\\winston\\errors\\phu-2023-07-11-01-error.log",
+            "hash": "4e455e4015193d225fed11bf9d38621a4657379fa746785f32ce3da8748895f6"
+        }
+    ],
+    "hashType": "sha256"
+}
