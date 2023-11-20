@@ -7,7 +7,6 @@ import { offeredCourseSectionFilterableFields } from './offeredCourseSection.con
 import { OfferedCourseSectionService } from './offeredCourseSection.service';
 
 const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
-  console.log(req.body);
   const result = await OfferedCourseSectionService.insertIntoDB(req.body);
   sendResponse(res, {
     statusCode: httpStatus.OK,
